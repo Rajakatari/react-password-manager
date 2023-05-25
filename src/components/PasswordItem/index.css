@@ -1,0 +1,38 @@
+.list-item {
+  list-style-type: none;
+  border: 1px solid grey;
+  width: 300px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.profile {
+  width: 30px;
+  height: 30px;
+  background-color: green;
+  color: white;
+  border-radius: 25px;
+  text-align: center;
+}
+.stars {
+  width: 120px;
+}
+.password-details {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  color: white;
+}
+.delete-image {
+  width: 25px;
+  height: 25px;
+}
+.delete-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
